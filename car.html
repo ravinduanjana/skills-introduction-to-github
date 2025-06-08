@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR SALE: Your Dream Car Awaits!</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for Inter font and background */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 24px; /* Padding around the content for spacing */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="max-w-3xl w-full bg-white shadow-2xl rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-[1.01]">
+        <!-- Header Section -->
+        <div class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-6 md:p-8 text-center rounded-t-xl">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-2 tracking-tight">
+                FOR SALE!
+            </h1>
+            <p class="text-xl md:text-2xl font-light opacity-90">
+                Your Next Adventure Starts Here
+            </p>
+        </div>
+
+        <!-- Car Image Section -->
+        <div class="p-4 bg-gray-50 flex justify-center items-center">
+            <!-- Replace 'https://placehold.co/800x450/4f46e5/ffffff?text=Amazing+Car+For+Sale' with your actual car image URL -->
+            <img src="https://placehold.co/800x450/4f46e5/ffffff?text=Amazing+Car+For+Sale"
+                 alt="Beautiful Car for Sale"
+                 class="w-full h-auto object-cover rounded-lg shadow-lg border-2 border-gray-200"
+                 onerror="this.onerror=null;this.src='https://placehold.co/800x450/cccccc/333333?text=Car+Image+Not+Available';">
+        </div>
+
+        <!-- Car Details Section -->
+        <div class="p-6 md:p-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-3">
+                2022 Honda Civic EX-L
+            </h2>
+            <p class="text-xl text-green-600 font-semibold mb-6">
+                Only <span class="font-bold text-2xl">$24,999</span>
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700 text-lg mb-6">
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <span><strong class="font-medium">Year:</strong> 2022</span>
+                </div>
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                    <span><strong class="font-medium">Mileage:</strong> 18,500 miles</span>
+                </div>
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5 5 0 006.002 2.721M3 6l3 1m0 0l-3 9a5 5 0 006.002 2.721M3 6l3 1m0 0l-3 9a5 5 0 006.002 2.721" />
+                    </svg>
+                    <span><strong class="font-medium">Transmission:</strong> Automatic</span>
+                </div>
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M10 20h4m-4 0h4m-9-11h9.284c.045.753.153 1.5.342 2.222l.147.546c.642 2.378 2.358 3.337 4.965 3.337H9.284C8.045 16.753 7.847 16 7.658 15.222L7.511 14.676C6.869 12.3 6.153 11 4.716 11H3" />
+                    </svg>
+                    <span><strong class="font-medium">Fuel:</strong> Gasoline</span>
+                </div>
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Key Features:</h3>
+            <ul class="list-disc list-inside text-gray-700 text-lg mb-6 space-y-1">
+                <li>Luxurious Leather Interior</li>
+                <li>Advanced Infotainment System with Apple CarPlay/Android Auto</li>
+                <li>Sunroof</li>
+                <li>Adaptive Cruise Control & Lane Keeping Assist</li>
+                <li>Backup Camera</li>
+                <li>Excellent Fuel Economy</li>
+            </ul>
+
+            <p class="text-gray-800 text-lg mb-8 leading-relaxed">
+                This meticulously maintained 2022 Honda Civic EX-L is in **pristine condition**, both inside and out. It offers a smooth, reliable ride and is packed with modern features, making it perfect for daily commutes or long road trips. Don't miss out on this incredible opportunity!
+            </p>
+
+            <!-- Call to Action -->
+            <div class="text-center">
+                <a href="tel:+15551234567"
+                   class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg text-xl shadow-lg
+                          transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-green-300">
+                    Call Now! (555) 123-4567
+                </a>
+                <p class="text-md text-gray-600 mt-4">
+                    Or email: <a href="mailto:carsale@example.com" class="text-blue-600 hover:underline">carsale@example.com</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer / Disclaimer -->
+        <div class="bg-gray-100 p-4 text-center text-sm text-gray-500 rounded-b-xl border-t border-gray-200">
+            Serious inquiries only. Price is slightly negotiable. Test drives available by appointment.
+        </div>
+    </div>
+</body>
+</html>
